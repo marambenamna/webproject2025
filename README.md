@@ -1,2 +1,2 @@
-# webproject2025
+# Inklab
 this is my ds1 project for "technologie web" ffor my 2cnd year "Big Data
