@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./page1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<title>Inklab</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="./img/lablogo.png" alt="">
+                <div class="bar">
+                    <button onclick="location.href='#hm'">Home</button>
+                    <button onclick="location.href='#abt'">About us</button>
+                    <button onclick="location.href='#serv'">Services</button>
+                    <button onclick="location.href='comingsoon.html'" >Subscription</button>
+                </div>
+            </div>
+            <div class="right">
+                <button onclick="window.open('./bubbles.html', '_blank')">Log in </button>
+                <p>|</p>
+                <button onclick="location.href='signin.html'">Sign up for free</button>
+            </div>
+        </nav>
+        <!--hamburger menu--> 
+        <div class="navbar">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="menu">
+                <a href="#hm">Home</a>
+                <a href="#abt">About</a>
+                <a href="#serv">Services</a>
+                <a href="#conts">Contact</a>
+            </div>
+        </div>
+    </header>
+    <section id="hm" class="one">
+        <div class="carousel">
+            <div class="next-slide active" style="background-image: url('./img/1.jpg');">
+                <div class="slide1text">
+                    Welcome <br>to Inklab
+                    <p>Your all-in-one space for planning, creating, and organizing—designed to bring your ideas to life.</p>
+                    <a href="bubbles.html">
+                        Sign in
+                    </a>
+                </div>
+            </div>
+            <div class="next-slide" style="background-image: url('./img/2.jpg');">
+                <div class="slide1text">
+                    Plan, Track,<br> and Organize
+                </div>
+            </div>
+            <div class="next-slide" style="background-image: url('./img/3.jpg');">
+                <div class="slide1text">
+                    Your <br> Productivity Hub
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="abt" class="two">
+        <div class="aboutus">
+            <div class="about-ustext">
+                <h2>About us</h2>
+                <p>
+                Inklab is your creative sanctuary — a digital space designed to help you bring your ideas to life. Whether you’re planning your day, tracking habits, organizing projects, or simply brainstorming your next big idea, Inklab gives you the tools to stay on top of your game.
+
+Born from a passion for productivity and self-expression, Inklab merges planning and creativity in one beautiful, intuitive workspace. Our goal? To help you think better, work smarter, and live more intentionally.
+                </p>
+            </div>
+            <video src="vids/skater.mp4" autoplay loop muted playsinline></video>
+
+        </div>
+    </section>
+    <div id="serv" class="third">
+    <h1>Services</h1>
+    <section class="services">
+        <div>
+            <div class="un">
+            <img src="img/creation.jpg" alt="">
+                <h2>Custom Digital Workspace</h2>
+                <p>Design your own pages just the way you like them. Add text, images, checkboxes, and more — all with drag-and-drop simplicity.</p>
+            </div>
+        </div>
+        <div>
+            <div class="un">
+            <img src="img/planner.jpg" alt="">
+                <h2>Smart Planner</h2>
+                <p>Organize your days, weeks, and months with a visual calendar. Set priorities, track progress, and stay ahead with intuitive planning tools.</p>
+            </div>
+        </div>
+        <div>
+            <div class="un">
+            <img src="img/todo.jpg" alt="">
+                <h2>To-Do Lists</h2>
+                <p>Create, manage, and check off your tasks with satisfying ease. Stay focused, one checkbox at a time.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <footer id="conts">
+        <div class="contacts">
+        <p>Made with ❤️ by Inklab Team © 2025</p><br>
+        <p>Contact: <a href="mailto:hello@inklab.com">hello@inklab.com</a></p> <br>
+        <p>Follow us:
+          <a href="https://instagram.com/inklab" target="_blank">Instagram</a> |
+          <a href="https://linkedin.com/company/inklab" target="_blank">LinkedIn</a>
+        </p>
+        <img src="img/lablogo.png" alt="">
+        </div>
+      </footer>
+      
+    <script src="page1.js"></script>
+</body>
+</html>

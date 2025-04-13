@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bubbles.css">
+  </head>
+  <body>
+    <div class="text-container">
+      <div class="container">
+        <div class="form-box">
+          <h5 id="form-title">Sign Up</h5>
+
+          <form id="auth-form">
+            <div class="input-group">
+              <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+              <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+              <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+            </div>
+            <div class="input-group">
+              <input type="date" id="birthday" placeholder="Birthday" required>
+            </div>
+            <div class="input-group">
+              <select id="country">
+                <option value="">Select Country (optional)</option>
+                <option value="TN">Tunisia</option>
+                <option value="US">United States</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+                <option value="JP">Japan</option>
+                <!-- Add more as needed -->
+              </select>
+            </div>
+            <div class="input-group">
+              <input type="tel" id="phone" placeholder="Phone Number" required>
+            </div>
+            <button type="submit" id="submit-btn">Sign Up</button>
+          </form>
+
+          <p id="toggle-form">Already have an account? <a href="#">Login</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="gradient-bg">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+      </div>
+    </div>
+    <script type="module" src="bubblelogin.js"></script>
+  </body>
+</html>
