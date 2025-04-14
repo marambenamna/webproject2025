@@ -86,6 +86,7 @@ nav img {
     width: 50%;
     text-align: center;
     margin-left: 20%;
+    cursor: pointer;
 }
 
 .menu a {
@@ -148,6 +149,9 @@ nav img {
     width: 100%;
     height: 90vh;
     overflow: hidden;
+}
+.slide1text a{
+    cursor: pointer;
 }
 
 .next-slide {
@@ -383,4 +387,5 @@ nav img {
 .uno{
     text-decoration: none;
     color: #0C0950;
+    cursor: pointer;
 }
