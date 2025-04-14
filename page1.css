@@ -4,6 +4,9 @@
     box-sizing: border-box;
     cursor: url('./img/cursor.png') 16 16, auto;
 }
+.homeimg img{
+    cursor: pointer;
+}
 
 /* Main navbar */
 nav {
@@ -17,6 +20,7 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1000; 
+    cursor: pointer;
 }
 
 nav button {
@@ -44,7 +48,9 @@ nav img {
 .bar {
     display: flex;
 }
-
+.bar button{
+    cursor: pointer;
+}
 .left {
     display: flex;
     gap: 6px;
@@ -373,4 +379,8 @@ nav img {
     .un{
         height: 65vh;
     }
+}
+.uno{
+    text-decoration: none;
+    color: #0C0950;
 }
